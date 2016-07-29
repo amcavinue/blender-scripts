@@ -1,0 +1,25 @@
+Algorithm to move coordinates
+
+***This way guarantees no intersection.
+
+Start from center of last object
+move in a random direction (yz) - so long as no overlap on end - one middle section away
+    no overlap on end:
+        
+
+extrude plane to coordinates of end of last object
+move in the same direction (yz), one end section away
+
+extrude again in random direction
+scale randomly
+
+
+Inputs:
+    last:
+        center
+        end
+    2 ago:
+        end
+        end scale size
+
+        

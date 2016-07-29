@@ -1,0 +1,50 @@
+2agoend
+    Horizontal
+        INIT_LOCATION + coordinates[3,4,5] + coordinates[10, 11, 12]
+        or
+        coordinates[15, 16, 17] (aka begCoordinates)
+    
+
+    Vertical
+        INIT_LOCATION + PLANE_RADIUS + coordinates[6] + coordinates[13]
+        
+-----------------------------------------------------------------------------    
+ThisBeginning - no twoago
+    Horizontal
+        INIT_LOCATION + coordinates[3,4,5]
+    
+    Vertical
+        Spacer:
+        INIT_LOCATION + PLANE_RADIUS + coordinates[6] (coords as calculations)
+        
+        Bad-location:
+        INIT_LOCATION + PLANE_RADIUS + coordinates[6] (coords as actual coords)
+        
+-----------------------------------------------------------------------------    
+ThisBeginning - twoago
+    Horizontal
+        twoago horizontal
+    
+    Vertical
+        Spacer:
+        twoago vertical (coords as calculations)
+        
+        Bad-location
+        twoago vertical (coords as actual coords)
+        
+        
+-----------------------------------------------------------------------------    
+ThisMiddle - no twoago
+    Horizontal
+        Init_location + coordinates[3,4,5] + coordinates[10, 11, 12]
+    
+    Vertical
+    
+
+-----------------------------------------------------------------------------    
+ThisMiddle - twoago
+    Horizontal 
+        coordinates[15, 16, 17] + coordinates[3,4,5] + coordinates[10, 11, 12]
+        
+    Vertical
+        
