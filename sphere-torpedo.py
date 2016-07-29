@@ -1,7 +1,5 @@
 """
 Creates a swirly torpedo of spheres.
-Test python scripting file.
-Taken from Sardi Pax tutorial.
 """
 
 import bpy
